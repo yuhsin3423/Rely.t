@@ -1,6 +1,7 @@
 body {
     margin: 24px 10px;
     font-family: Arial, '微軟正黑體', sans-serif;
+    background-color:  #009FCC;
 }
 
 
@@ -16,6 +17,7 @@ body {
 header {
     margin-bottom: 10px;
     overflow: hidden;
+    background-color:  #ffffff;
 }
 
 
@@ -114,7 +116,13 @@ main .view-first img {
 
 
 
-
+main{
+  background-color:  #009FCC;
+  margin-bottom: 10px;
+  overflow: hidden;
+  width: 960px;
+  height: auto;
+}
 
 
 
@@ -226,7 +234,7 @@ main .view-first img {
 .view p {
     font-family:  Arial, '微軟正黑體', sans-serif;
     /*font-style: italic;*/ 
-    font-size: 18px;
+    font-size: 14px;
     position: relative;
     color: #fff;
     padding: 10px 20px 20px;
@@ -379,8 +387,17 @@ main .view-first img {
 
 /* ### FOOTER ###*/
 
+footer{
+  background-color:  #009FCC;
+  margin-bottom: 10px;
+  overflow: hidden;
+  width: 960px;
+  height: auto;
+}
+
+
 footer {
-    background-color:  #009FCC;
+    
     padding: 5px;
 }
 
