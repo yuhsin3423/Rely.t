@@ -69,7 +69,7 @@ nav ul {
 
 nav li{
    list-style-type: none;
-   float: left;
+
 }
 
 
@@ -93,6 +93,10 @@ nav li a {
     border-bottom: solid 3px transparent;
     color: #000000;
 }
+
+
+
+
 
 
 main .view-first img {
@@ -119,8 +123,8 @@ main{
 
 .blank{
     max-width: 100%;
-    height:5px;
-    background-color: #E6C3C3;
+    height:10px;
+    background-color: #4682B4;
 }
 
 
@@ -128,7 +132,7 @@ main{
 #newvideo{
   max-width: 100%;
   height:auto;
-  background-color: #E6C3C3;
+  background-color: #ffffff;
 
 
 }
@@ -424,14 +428,16 @@ video{
 
 .view{
   margin-bottom: 50px;
+  left: 10%;
 }
 
 
 
 
 
-.view+.view {
-    margin-right: 10;
+#container .view+.view {
+  position: relative;
+  left: 10%;
 }
 
 
@@ -494,6 +500,7 @@ footer {
     font-family: 'Maven Pro', Helvetica, Arial, san-serif;
     font-size: 12px;
     overflow: hidden;
+    float: left;
 
 }
 /*
@@ -544,7 +551,3 @@ footer {
 
 
 
-.rely_1 img {
-    max-width: 100%;
-    height: auto;
-  }
