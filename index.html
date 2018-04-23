@@ -15,8 +15,21 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/jquery-3.2.1.min.js">
+    <link rel="stylesheet" type="text/javascript" href="https://code.jquery.com/jquery-3.2.1.js">
+
     <link rel="stylesheet" href="trystyle.css">
 
+
+
+
+    <link rel="stylesheet" type="text/javascript" href="js/bootstrap.bundle.js">
+    <link rel="stylesheet" type="text/javascript" href="js/bootstrap.bundle.min.js"> 
+    <link rel="stylesheet" type="text/javascript" href="js/bootstrap.min.js">
+    <link rel="stylesheet" type="text/javascript" href="js/bootstrap.js">
+    <link rel="stylesheet" type="text/javascript" href="js/jquery-3.2.1.min.js">
+    <link rel="stylesheet" type="text/javascript" href="js/intro.js">
 </head>
 
 
@@ -31,24 +44,40 @@
 
 
 
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#"></a>
-                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                 </button>
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">瞭解更多內容</button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="https://yuhsin3423.github.io/final23/">影音作品</a>
+                <a href="#">幕後花絮</a>
+                <a href="https://yuhsin3423.github.io/aboutus/">關於我們</a>
+              </div>
+            </div>
 
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">影音作品 <span class="sr-only">(current)</span></a></li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">幕後花絮</a></li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">關於我們</a></li>
-     
-    </ul>
-  </div>
-</nav>
+
+            <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+            </script>
+
+
 
 
 
@@ -61,9 +90,9 @@
 
 
 
-                <div id="newvideo">
+                <div class="newvideo">
                     
-                    <video src="video/aircondition.mp4" type="video/mp4" controls="controls" loop="loop" autoplay="autoplay"></video>
+                    <video src="video/aircondition.mp4" type="video/mp4" controls="controls" loop="loop" autoplay="true"></video>
                     
                     <div class="wordsbox">
                         <h2>最新影片-用電過度病</h2>
@@ -159,7 +188,7 @@
             <ul>
                 <li><a href="#"><img src="img/icon/Email.svg" alt="Email"></a></li>
                 <li><a href="#"><img src="img/icon/Facebook.svg" alt="Facebook"></a></li>
-                <li><a href="#"><img src="img/icon/YouTube.svg" alt="YouTube"></a></li>
+                <li><a href="https://www.youtube.com/channel/UCjsDnuE63qhb6qho4w0Tsgw"><img src="img/icon/YouTube.svg" alt="YouTube"></a></li>
             </ul>
         </div>
 
@@ -174,11 +203,8 @@
 
   
 
-<script src="js/bootstrap.bundle.js"></script> 
-<script src="js/bootstrap.bundle.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/bootstrap.js"></script> 
-<script src="js/jquery-3.2.1.min.js"></script>
+
+
 
 
 
