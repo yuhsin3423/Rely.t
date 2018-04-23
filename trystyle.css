@@ -176,7 +176,7 @@ div.newvideo video{
   position: relative;
   width: 100%;
   height: auto;
-  margin: 0 20px;
+  margin: 0 0px;
   text-align: center;
 }
 
@@ -573,10 +573,11 @@ footer {
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: #2980B9;
-    color: white;
-    padding: 16px;
+    background-color: #B0E0E6 ;
+    color: black;
+    padding: 10px;
     font-size: 14px;
+    font-weight: bold;
     font-family: 'cwTeXYen', sans-serif;
     border: none;
     cursor: pointer;
@@ -584,14 +585,17 @@ footer {
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
+    background-color: #B0E0E6 ;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    position: relative;
+    position: fixed;
     display: inline-block;
     float: right;
+    right: 0;
+    top: 150px;
+    z-index: 50;
 }
 
 /* Dropdown Content (Hidden by Default) */
