@@ -99,6 +99,10 @@ nav li a {
 
 
 
+
+
+
+
 main .view-first img {
     float: left;
     vertical-align: bottom;
@@ -553,6 +557,7 @@ footer {
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -616,3 +621,5 @@ footer {
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
+=======
+>>>>>>> 4eaa0b5276d777f735fdab8e2af5e7521186a924
