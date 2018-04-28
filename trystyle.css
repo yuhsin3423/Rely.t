@@ -195,11 +195,13 @@ div.newvideo video{
 
 
 
-#container{
-  margin: 50px;
+.container{
+  margin-left: 10%;
+
   margin-bottom: 50px;
-
-
+  display: block;
+  text-align: center;
+  max-width: 100%;
 }
 
 
@@ -263,7 +265,7 @@ div.newvideo video{
 
 .view {
     max-width: 60%;
-    height: 40%;
+    height: auto;
     margin: 10px;
     float: left;
     border: 10px solid #fff;
@@ -272,7 +274,8 @@ div.newvideo video{
     text-align: center;
     box-shadow: 1px 1px 2px #e6e6e6;
     cursor: default;
-    background: #fff url(../images/bgimg.jpg) no-repeat center center
+    background: #fff url(../images/bgimg.jpg) no-repeat center center;
+    display:block;
 }
 .view .mask, .view .content {
     max-width: 450px;
@@ -283,8 +286,9 @@ div.newvideo video{
     left: 0;
 }
 .view img {
+  
     display: block;
-    position: relative
+    position: relative;
 }
 .view h2 {
     text-transform: uppercase;
@@ -305,7 +309,7 @@ div.newvideo video{
     padding: 10px 20px 20px;
     text-align: center;
 }
-/*
+
 .view a.info {
     display: inline-block;
     text-decoration: none;
@@ -318,7 +322,7 @@ div.newvideo video{
 
 .view a.info:hover {
     box-shadow: 0 0 5px #000
-}*/
+}
 
 
 
@@ -631,4 +635,6 @@ footer {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+
 
