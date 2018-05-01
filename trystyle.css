@@ -264,8 +264,8 @@ div.newvideo video{
 
 
 .view {
-    max-width: 60%;
-    height: auto;
+    max-width: 450px;
+    height: 300px;
     margin: 10px;
     float: left;
     border: 10px solid #fff;
@@ -278,9 +278,10 @@ div.newvideo video{
     display:block;
 }
 .view .mask, .view .content {
-    max-width: 450px;
+    width: 450px;
     height: 300PX;
     position: absolute;
+    text-align: center;
     overflow: hidden;
     top: 0;
     left: 0;
